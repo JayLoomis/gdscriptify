@@ -4,7 +4,7 @@ Nodes are Godot classes. They're called nodes because the whole system is
 conceptually designed as a tree structure, where the game is the parent node and
 all the game objects are nodes arranged in nested trees within it.
 
-When you create a script for a node, you are creating a inherited class. Here's
+When you create a script for a node, you are creating an inherited class. Here's
 an example:
 
 ```
