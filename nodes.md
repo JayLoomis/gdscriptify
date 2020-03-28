@@ -46,6 +46,12 @@ The `export` keyword makes the property externally accessible. The immediate
 benefit is that the Godot UI can access it, enabling you to change its value
 from the inspector.
 
+In a node script, `$` returns the node relative to the current node, or returns
+`null` if the node isn't found. This implicit referencing notation means you
+don't have to create member variables for child instances.
+
+
+
 <!--
 ----|----10---|----20---|----30---|----40---|----50---|----60---|----70---|----80
 -->
